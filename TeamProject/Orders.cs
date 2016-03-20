@@ -10,9 +10,10 @@ namespace TeamProject
     {
         public int Id { get; set; }
         public string Status { get; set; }
-        public int CustomerId { get; set; }
         public double Price { get; set; }
         public string Type { get; set; }
         public int PerformerId { get; set; }
+        public int CustomerId { get; set; }
+        public virtual Orders Orders();
     }
 }
