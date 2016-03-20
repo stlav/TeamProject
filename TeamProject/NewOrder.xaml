@@ -12,11 +12,17 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-     
+        <TextBlock Grid.Column="0" Grid.Row="0" Margin="7">Тип заказа</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="1" Margin="7"></TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="2" Margin="7"></TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="3" Margin="7"></TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="4" Margin="7"></TextBlock>
     </Grid>
 </Window>
