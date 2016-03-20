@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Name="NewOrderButton" Grid.Column="1" Grid.Row="1" Margin="5">New Order</Button>
+        <Button Name="NewCustomerButton" Grid.Column="1" Grid.Row="2" Margin="5">New Customer</Button>
+        <Button Name="NewPerformerButton" Grid.Column="1" Grid.Row="3" Margin="5">New Performer</Button>
+        <DataGrid Name="OrdersGrid" Grid.Column="0" Grid.Row="1" Grid.RowSpan="4"></DataGrid>
+
     </Grid>
 </Window>
